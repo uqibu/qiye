@@ -1,0 +1,91 @@
+[ 2017-05-02T23:22:17+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000987s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:24:45+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000708s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:24:46+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002374s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004184s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:24:50+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000978s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:24:55+08:00 ] 127.0.0.1 /index.php?g=user&m=login&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000530s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `qiye_users` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto /Users/ety001/wwwroot/ThinkCMFX/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qiye_users` WHERE `user_status` = 1 AND `user_login` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `qiye_users` SET `last_login_time`='2017-05-02 23:24:55',`last_login_ip`='127.0.0.1' WHERE ( id=1 ) [ RunTime:0.0003s ]
+
+[ 2017-05-02T23:24:57+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000618s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:25:00+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000718s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:25:12+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000586s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:25:13+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000644s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:25:15+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000787s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002474s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-05-02T23:25:16+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001018s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.005823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008472s ]
+NOTIC: [8] Undefined index: url /Users/ety001/wwwroot/ThinkCMFX/application/Common/Controller/AppframeController.class.php 第 22 行.
+
