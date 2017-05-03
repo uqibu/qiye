@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<title>{$site_seo_title} {$site_name}</title>
+	<meta name="keywords" content="{$site_seo_keywords}" />
+	<meta name="description" content="{$site_seo_description}">
+	<tc_include file="Public:head" />
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+
+		<tc_include file="Public:nav" />	
+
+		<div id="fh5co-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="system-message">
+						<present name="message">
+						<h1>^_^</h1>
+						<p class="success"><?php echo($message); ?></p>
+						<else/>
+						<h1>&gt;_&lt;</h1>
+						<p class="error"><?php echo($error); ?></p>
+						</present>
+						<p class="detail"></p>
+						<p class="jump">
+						页面自动 <a id="href" href="<?php echo($jumpUrl); ?>">跳转</a> 等待时间： <b id="wait"><?php echo($waitSecond); ?></b>
+						</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<tc_include file="Public:footer"/>
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<tc_include file="Public:scripts"/>
+	<script type="text/javascript">
+	(function(){
+	var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+	var interval = setInterval(function(){
+		var time = --wait.innerHTML;
+		if(time <= 0) {
+			location.href = href;
+			clearInterval(interval);
+		};
+	}, 1000);
+	})();
+	</script>
+	{:hook('footer_end')}
+	</body>
+</html>

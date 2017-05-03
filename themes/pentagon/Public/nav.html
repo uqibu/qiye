@@ -1,0 +1,26 @@
+{:hook('body_start')}
+<div id="fh5co-header">
+    <header id="fh5co-header-section">
+        <div class="fh5co-overlay"></div>
+        <div class="container">
+            <div class="nav-header">
+                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                <h1 id="fh5co-logo"><a href="__WEB_ROOT__/">{$site_name}</a></h1>
+                <!-- START #fh5co-menu-wrap -->
+                <nav id="fh5co-menu-wrap" role="navigation">
+                    <?php
+                        $effected_id="fh5co-primary-menu";
+                        $filetpl="<a href='\$href' target='\$target'>\$label</a>";
+                        $foldertpl="<a href='\$href' target='\$target' class='fh5co-sub-ddown sf-with-ul'>\$label</a>";
+                        $ul_class="fh5co-sub-menu" ;
+                        $li_class="" ;
+                        $style="sf-menu sf-js-enabled sf-arrows";
+                        $showlevel=6;
+                        $dropdown='dropdown';
+                        echo sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown);
+                    ?>
+                </nav>
+            </div>
+        </div>
+    </header>
+</div>

@@ -1,0 +1,21 @@
+{:hook('footer')}
+<!-- fh5co-blog-section -->
+<footer>
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<p>Copyright 2017 集米广告. All Rights Reserved. <br>
+					<php>$links=sp_getlinks();</php>
+					<foreach name="links" item="vo">
+						<notempty name="vo.link_image">
+							<!-- <img src="{:sp_get_image_url($vo['link_image'])}"> --><!-- 如果想加个友链图片可以取消注释 -->
+						</notempty>
+						<a href="{$vo.link_url}" target="{$vo.link_target}">{$vo.link_name}</a>
+					</foreach>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div style="display: none;">{$site_tongji}</div>
